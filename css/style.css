@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#customerTable {
+    overflow-x: scroll;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
