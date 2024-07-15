@@ -2,8 +2,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-#customerTable {
-    overflow-x: scroll;
+.tableContainer {
+    overflow-x: auto;
+    width: 100%;
 }
 
 table {
