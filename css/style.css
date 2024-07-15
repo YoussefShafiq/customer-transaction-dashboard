@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+tr {
+    background-color: whitesmoke;
+    transition: all .5s;
+}
+
+tr:active {
+    background-color: rgb(231, 231, 231);
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.chartcontainer {
+    width: 75%;
+}
+
+@media (max-width: 576px) {
+    .chartcontainer {
+        width: 100%;
+    }
+}
