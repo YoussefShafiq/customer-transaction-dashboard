@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let displayedchart = null;
 
     async function fetchData() {
-        let customersresp = await fetch('http://localhost:3000/customers')
+        let customersresp = await fetch('https://my-json-server.typicode.com/YoussefShafiq/customer-transaction-dashboard/customers')
         customers = await customersresp.json()
-        let transactionsresp = await fetch('http://localhost:3000/transactions')
+        let transactionsresp = await fetch('https://my-json-server.typicode.com/YoussefShafiq/customer-transaction-dashboard/transactions')
         transactions = await transactionsresp.json()
         displayTable();
     }
